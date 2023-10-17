@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.appButtonAdd {
+  margin: 30px;
+  width: 200%;
+  background-color: #00d5ff;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #00d5ff;
+}
+
+.appButtonClear {
+  margin: 30px;
+  width: 200%;
+  background-color: #ff0066;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #ff0066;
+}
+
+.buttonContainer{
+  width: 800px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+
+
+.teamList {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
